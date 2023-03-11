@@ -5,6 +5,8 @@
 BUILD_DIR=$1
 CACHE_DIR=$2
 
+printenv
+
 ls $BUILD_DIR/.git
 
 echo "=====> Writing out SOURCE_VERSION to .source_version ($SOURCE_VERSION)"
