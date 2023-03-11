@@ -5,7 +5,7 @@
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-ls $BUILD_DIR
+ls $BUILD_DIR/.git
 
 echo "=====> Writing out SOURCE_VERSION to .source_version ($SOURCE_VERSION)"
 echo $SOURCE_VERSION > $BUILD_DIR/.source_version
