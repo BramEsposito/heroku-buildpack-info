@@ -2,14 +2,14 @@
 
 # Syntax bin/compile <build-dir> <cache-dir>
 
-BUILD_DIR=$1
-CACHE_DIR=$2
-ENV_DIR=$3
+# BUILD_DIR=$1
+# CACHE_DIR=$2
+# ENV_DIR=$3
 
-printenv
+# printenv
 
-ls $ENV_DIR
-ls $BUILD_DIR/.git
+# ls $ENV_DIR
+# ls $BUILD_DIR/.git
 
 echo "=====> Writing out SOURCE_VERSION to .source_version ($SOURCE_VERSION)"
 echo $SOURCE_VERSION > $BUILD_DIR/.source_version
